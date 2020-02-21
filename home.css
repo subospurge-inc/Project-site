@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.navbar {
+    background: linear-gradient(to right, rgb(43, 43, 66), lightblue)
+}
+.nav-item {
+    font-size: 22px;
+    padding-left: 15px;
+}
+.navbar-brand {
+    font-weight: 800;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link:after {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 50%;
+    transition: 0.3s ease-in 0s, 0.3s ease-in 0s;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, orange, red);
+}
+.nav-link:hover:after {
+    width: 100%;
+    left: 0;
+}
+.testimonials {
+    margin-top: 50px;
+    background-image: url(back.jpg);
+    background-size: cover;
+    color: #fff;
+    background-color: rgba(211, 211, 211, 0.582);
+}
+.btn {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    background: linear-gradient(to right, rgb(37, 67, 78), rgb(81, 153, 177));
+}
+.carousel-item{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.welcome {
+    background-image: url(lit.jpg);
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    height: 60vh;
+    margin-top: 100px;
+    align-content: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.cSlide {
+    height: 400px;
+    margin-top: 100px;
+}
+.card1 {
+    border: none;
+    box-shadow: 10px 0 15px lightgrey;
+    margin: 40px;
+}
+.card-body, .img {
+    margin-top: -50px;
+}
+.people-header {
+    margin-top: 70px;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-pinterest {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.social-link {
+    text-decoration: none;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-twitter {
+    color: skyblue;
+}
+.fa-instagram {
+    color: grey;
+}
+.fa-pinterest {
+    color: red;
+}
+#close {
+    background-color: #272b30;
+    color: #a7a9ac;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 40px;
+}
+.card2 {
+    background-color: #1b262c;
+    
+}
+.cardLead {
+    font-size: 12px;
+    padding: 40px;
+    margin-left: 0;
+    font-weight: 100;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bSection {
+    background-image: url(col.jpg);
+    height: 40vh;
+    opacity: 0.6;
+    border: none;
+}
